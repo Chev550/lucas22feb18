@@ -2,30 +2,40 @@
 	<div class="container">
 		<nav>
 			<ul>
-				<a href="{{ site.baseurl }}/">
+				<a href="/">
 					<li>
-						<img class="logo" src="{{ site.baseurl }}/assets/img/profile.png">
+						<img class="logo" src="/assets/img/profile.png">
 					</li>
 				</a>
 
-				<a class="{% if page.url contains 'portfolio' %}active{% endif %}" href="{{ site.baseurl }}/portfolio.html">
+
+				<a class="{% if page.url contains 'portfolio' %}active{% endif %}" href="/portfolio.html">
 					<li>
 						作品<br>
 						<span class="x-small slim">PORTFOLIO</span>
 					</li>
 				</a>
 
-				<a class="{% if page.url contains 'blog' %}active{% endif %}" href="{{ site.baseurl }}/blog/">
+
+				<a class="{% if page.url contains 'blog' %}active{% endif %}" href="/blog/">
 					<li>
 						博客<br>
 						<span class="x-small slim">BLOG</span>
 					</li>
 				</a>
 
-				<a class="{% if page.url contains 'about' %}active{% endif %}" href="{{ site.baseurl }}/about.html">
+
+				<a class="{% if page.url contains 'about' %}active{% endif %}" href="/about.html">
 					<li>
 						关于<br>
 						<span class="x-small slim">ABOUT</span>
+					</li>
+				</a>
+
+				<a class="{% if page.url contains 'moments' %}active{% endif %}" href="/moments/2018.html">
+					<li class="pull-right">
+						<i class="glyphicon glyphicon-eye-open"></i><br>
+						<span class="x-small slim">FOLLOW</span>
 					</li>
 				</a>
 			</ul>	

@@ -161,15 +161,12 @@ ul.about-list li {
 
 
 
-.cover-img:hover {
-	opacity: 0.8;
-}
 
 
 
 /* ====== Carousel ====== */
 .carousel {
-	height: 400px;
+	height: 300px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -177,8 +174,8 @@ ul.about-list li {
 }
 /* Declare heights because of positioning of img element */
 .carousel .item {
-	height: 400px;
-	background-color: #777;
+	height: 300px;
+	background-color: #ddd;
 }
 
 

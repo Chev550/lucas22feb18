@@ -1,15 +1,3 @@
-- chn: "2018 新年海报"
-  eng: "2018 New Year Poster"
-  src: "sdc_poster"
-  size: "1080x1920"
-  date: "1 Jan 2018"
-
-- chn: "2018 新年壁纸"
-  eng: "2018 New Year Wallpaper"
-  src: "sdc_wallpaper"
-  size: "1920x1080"
-  date: "1 Jan 2018"
-
 - src: "dan_stevens"
   size: "1080x1160"
   chn: "丹-史蒂文斯"
